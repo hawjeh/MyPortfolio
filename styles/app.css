@@ -1,0 +1,192 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+  background-color: #313a3d;
+  background-attachment: fixed, fixed;
+  background-image: url("../images/overlay.png"), url("../images/bg.jpg");
+  background-position: top left, center center;
+  background-repeat: repeat, none;
+  background-size: auto, cover;
+}
+
+body {
+  font-family: "Raleway", "Helvetica", sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  text-align: center;
+  color: #6f7577;
+  letter-spacing: 0.075em;
+
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.description {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.header {
+  color: #ffffff;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+div.header h1 {
+  width: 150px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+
+div.header p {
+  padding-top: 15px;
+}
+
+div.body {
+  margin-top: 350px;
+  background-color: white;
+}
+
+.header p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section {
+  min-height: 50px;
+}
+
+.section h2 {
+  padding-bottom: 20px;
+}
+
+.section p {
+  padding-top: 30px;
+}
+
+p.h2-line:before{
+  content: "";
+  position: absolute;
+  width: 15%;
+  left: 43%;
+  border-bottom: 1px solid #bfc2c3;
+}
+
+.icon {
+  display: block;
+  margin: 0 0 40px 0;
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.icon-large {
+  font-size: 55px;
+}
+
+.icon-medium {
+  font-size: 40px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.btn-green{
+  color: #fff;
+  background-color: #8cd1a8;
+  border: 0;
+  box-shadow: none;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+hr.line {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  flex: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex-box {
+  flex: 1;
+  margin: 20px;
+}
+
+a.nostyle {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:active {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+form {
+  text-align: left;
+}
+
+footer {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .copyright {
+  font-size: 13px;
+  padding: 0;
+}
+
+@media (max-width: 750px) {
+  div.body {
+    margin-top: 50px;
+    background-color: white;
+  }
+
+  .flex-box {
+    margin: 10px;
+  }
+}
